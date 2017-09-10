@@ -22,5 +22,29 @@ track all local files
 
 > git add .
 
+step 4:
+commit all files to send in staging level
 
+> git commit -m "All Laravel Files"
 
+step 5: 
+send all files to GitHub repo
+
+> git push -u origin master
+
+----------------------------------
+
+Required Softwares/tools for Laravel
+-----------------------------------
+- composer  
+- cmder (optional)
+- atom (or sublime or any other editor)
+
+**************************************
+
+Command cross-env not found on Windows
+------------------------------
+
+>npm clean cache --force
+>npm install
+>npm run dev
